@@ -1,0 +1,1 @@
+Ouverture du jeu via index.html
