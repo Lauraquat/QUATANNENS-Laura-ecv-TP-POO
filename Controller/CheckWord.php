@@ -2,11 +2,9 @@
 
 declare(strict_types=1);
 
-require_once('./Controller/Controller.php');
+require_once('./TestedWord.php');
 
 $word = str_split("voiture", 1);
-
-$testedWord = getTestedWord();
 
 foreach($testedWord as $letter){   
     //si on ne trouve pas la lettre du mot testé dans le tableau du mot à trouver
@@ -27,4 +25,4 @@ foreach($testedWord as $letter){
 };
 
 
-echo "<a href='index.html'>Retenter";
+echo "<a href='../index.html'>Retenter";

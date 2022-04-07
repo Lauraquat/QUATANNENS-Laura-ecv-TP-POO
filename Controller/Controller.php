@@ -8,7 +8,7 @@ function getTestedWord(){
         $testedWord = str_split($testedWord, 1);
     }else{
         echo "Vous devez saisir un mot"; 
-        echo "<br/> <a href='index.html'>Retenter";
+        echo "<br/> <a href='../index.html'>Retenter";
         die;
     }
     return $testedWord; 
