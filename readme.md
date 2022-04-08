@@ -1,1 +1,1 @@
-Ouverture du jeu via index.html
+Ouverture du jeu via index.php
